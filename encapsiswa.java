@@ -5,6 +5,8 @@ public class encapsiswa {
     private String address;
     private int age ;
 
+    // Asesor
+
     public int getAge(){
         return age;
     }
@@ -15,6 +17,7 @@ public class encapsiswa {
         return address;
     }
 
+    // Mutator
     public void setAge (int newAge){
         age=newAge;
     }

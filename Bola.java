@@ -3,6 +3,10 @@ package OOP;
 public class Bola {
         private double jariJari;
     
+
+        public double getjariJari(){
+            return jariJari;
+        }
         public void setJariJari(double jariJari) {
             this.jariJari = jariJari;
         }

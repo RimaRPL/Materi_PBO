@@ -5,14 +5,14 @@ public class Bus2 {
 
     //konstruktor 
     public Bus2(int maxpenumpang){
-        this.maxpenumpang=maxpenumpang;
+        this.maxpenumpang=maxpenumpang;    // nilai maxpenumpang sama dengan input maxpenumpang baru
         penumpang=0;
     }
 
     //methot mutator 
     public void pluspenumpang(int penumpang){
         int temp;
-        temp=this.penumpang+penumpang;
+        temp=this.penumpang+penumpang; //
         if (temp>=maxpenumpang){
             System.out.println("Overload penumpang");
         }
